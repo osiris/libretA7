@@ -1,0 +1,82 @@
+{"pageSetup": {
+    "width": "74mm",
+    "height": "105mm",
+    "margin-top": "6mm",
+    "margin-bottom": "6mm",
+    "margin-left": "6mm",
+    "margin-right": "6mm",
+    "margin-gutter": "0cm",
+    "spacing-header": "0cm",
+    "spacing-footer": "0cm",
+    "firstTemplate": "whitePage"
+  },
+  "pageTemplates" : {
+    "whitePage": {
+        "frames": [
+            ["0", "0", "100%", "100%"]
+        ],
+        "showHeader" : false,
+        "showFooter" : true
+    }
+  },
+  "fontsAlias": {
+    "stdFont": Helvetica,
+    "stdBold": Helvetica-Bold,
+    "stdItalic": Helvetica-Oblique,
+    "stdBoldItalic": Helvetica-BoldOblique,
+    "stdSans": Helvetica,
+    "stdSansBold": Helvetica-Bold,
+    "stdSansItalic": Helvetica-Oblique,
+    "stdSansBoldItalic": Helvetica-BoldOblique,
+    "stdMono": Courier,
+    "stdMonoItalic": Courier-Italic,
+    "stdMonoBold": Courier-Bold,
+    "stdMonoBoldItalic": Courier-BoldOblique,
+    "stdSerif": Times-Roman
+    },
+  "styles": {
+    "base": {
+      "fontName": stdMono,
+      "fontSize": 8,
+      "leading": 8
+    },
+    "title": {
+      "fontName": stdMonoBold,
+      "fontSize": 12
+    },
+    "subtitle": {
+      "fontName": stdMonoBold,
+      "fontSize": 11
+    },
+    "heading1": {
+      "fontName": stdMonoBold,
+      "fontSize": 10
+    },
+    "heading2": {
+      "fontName": stdMonoBold,
+      "fontSize": 10
+    },
+    "heading3": {
+      "fontName": stdMonoBold,
+      "fontSize": 10
+    },
+    "heading4": {
+      "fontName": stdMonoBold,
+      "fontSize": 10
+    },
+    "definition-list-term": {
+      "fontName": stdMonoBold,
+      "fontSize": 9
+    },
+    "code": {
+      "parent": literal,
+      "leftIndent": 0,
+      "spaceBefore": 2,
+      "spaceAfter": 10,
+      "backColor": white,
+      "borderColor": white,
+      "borderWidth": 0,
+      "borderPadding": 0
+    }
+  }
+}
