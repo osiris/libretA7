@@ -32,7 +32,7 @@
 pages=16
 j=$[$pages-1]
 T='/tmp'
-B='booklet'
+B='A7'
 
 echoerror() { echo "$@" 1>&2; }
 

@@ -1,6 +1,6 @@
 .. footer:: Vim | ###Page###
 
-.. image:: logo.png
+.. image:: vim.png
 
 INICIAR EL PROGRAMA
 -------------------

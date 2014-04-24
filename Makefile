@@ -1,10 +1,18 @@
-readme:
-	./rst2pdf.sh README.rst && ./booklet.sh README.pdf | bash
+vim: rst
+	/bin/bash ./booklet.sh vim.pdf | /bin/bash
+
+emacs: rst
+	/bin/bash ./booklet.sh emacs.pdf | /bin/bash
+
+bash: rst
+	/bin/bash ./booklet.sh bash.pdf | /bin/bash
+
+readme: rst
+	/bin/bash ./booklet.sh README.pdf | /bin/bash
 
 rst:
-	./rst2pdf.sh
+	/bin/bash ./rst2pdf.sh
 
-examples:
-	cd examples
-	/bin/bash ../rst2pdf.sh
-	/bin/bash ../pdf2booklet.sh
+upload:
+	scp *A7.pdf vodka:~/pub/libretA7
+
